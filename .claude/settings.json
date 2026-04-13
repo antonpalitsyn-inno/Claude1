@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'git status --short 2>/dev/null; exit 0'"
+          }
+        ]
+      }
+    ]
+  }
+}
